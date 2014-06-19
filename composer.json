@@ -1,0 +1,11 @@
+{
+    "name": "jolicode/burger",
+    "description": "A yummy burger for you!",
+    "authors": [
+        {
+            "name": "AFUP and JoliCode"
+        }
+    ],
+    "require": {
+    }
+}
