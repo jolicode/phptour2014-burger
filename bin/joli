@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__.'/../../../autoload.php';
+
+use Joli\PHPTour\Burger\Command\BurgerCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new BurgerCommand);
+$application->run();
