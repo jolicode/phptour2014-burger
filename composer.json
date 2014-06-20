@@ -1,11 +1,29 @@
 {
     "name": "jolicode/burger",
+    "type": "library",
+    "homepage": "http://phptour.org",
     "description": "A yummy burger for you!",
+    "license": "MIT",
     "authors": [
         {
-            "name": "AFUP and JoliCode"
+            "name": "AFUP",
+            "email": "bureau@afup.org",
+            "homepage": "http://afup.org",
+            "role": "Association"
+        },
+        {
+            "name": "JoliCode",
+            "email": "coucou@jolicode.com",
+            "homepage": "http://jolicode.com",
+            "role": "PoneyClub"
         }
     ],
+    "autoload": {
+        "psr-0": { "Joli\\PHPTour\\Burger\\": "" }
+    },
     "require": {
-    }
+        "symfony/console": "dev-master",
+        "symfony/process": "dev-master"
+    },
+    "minimum-stability": "dev"
 }
