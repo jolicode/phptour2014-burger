@@ -3,11 +3,15 @@
 ## Usage
 
 ```
-$ composer require jolicode/burger
+$ composer require jolicode/burger dev-master
 $ ./vendor/jolicode/burger/bin/joli burger
 ```
 
 Happy [PHP Tour](http://phptour.org/)!
+
+## TL;DR;
+
+![tl dr](demo.gif)
 
 ## Who made this?
 
