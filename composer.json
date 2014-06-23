@@ -22,8 +22,8 @@
         "psr-0": { "Joli\\PHPTour\\Burger\\": "" }
     },
     "require": {
-        "symfony/console": "dev-master",
-        "symfony/process": "dev-master"
+        "symfony/console": "v2.5.0",
+        "symfony/process": "v2.5.0"
     },
     "minimum-stability": "dev",
     "bin": ["./bin/joli"]
