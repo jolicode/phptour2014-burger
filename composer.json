@@ -25,5 +25,6 @@
         "symfony/console": "dev-master",
         "symfony/process": "dev-master"
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "bin": ["./bin/joli"]
 }
